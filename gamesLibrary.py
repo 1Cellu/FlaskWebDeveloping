@@ -8,21 +8,22 @@ class Game:
 
 games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
 games_list2023 = Game('f123', 'Racing', 'PS4')
-games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
-games_list2023 = Game('f123', 'Racing', 'PS4')
-games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
-games_list2023 = Game('f123', 'Racing', 'PS4')
-games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
-games_list2023 = Game('f123', 'Racing', 'PS4')
-games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
-games_list2023 = Game('f123', 'Racing', 'PS4')
-games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
-games_list2023 = Game('f123', 'Racing', 'PS4')
-games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
-games_list2023 = Game('f123', 'Racing', 'PS4')
-games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
-games_list2023 = Game('f123', 'Racing', 'PS4')
-games_list = [games_list2000, games_list2023]
+games_list20001 = Game('Tetris', 'Puzzle', 'Atari')
+games_list20231 = Game('f123', 'Racing', 'PS4')
+games_list20002 = Game('Tetris', 'Puzzle', 'Atari')
+games_list20232 = Game('f123', 'Racing', 'PS4')
+games_list20003 = Game('Tetris', 'Puzzle', 'Atari')
+games_list20233 = Game('f123', 'Racing', 'PS4')
+games_list20004 = Game('Tetris', 'Puzzle', 'Atari')
+games_list20234 = Game('f123', 'Racing', 'PS4')
+games_list20005 = Game('Tetris', 'Puzzle', 'Atari')
+games_list20235 = Game('f123', 'Racing', 'PS4')
+games_list20006 = Game('Tetris', 'Puzzle', 'Atari')
+games_list20236 = Game('f123', 'Racing', 'PS4')
+games_list20007 = Game('Tetris', 'Puzzle', 'Atari')
+games_list20237 = Game('f123', 'Racing', 'PS4')
+games_list = [games_list2000, games_list2023, games_list20001, games_list20231, games_list20002, games_list20232, games_list20003, games_list20233, games_list20004, games_list20234,
+              games_list20005, games_list20235, games_list20006, games_list20236, games_list20007, games_list20237, games_list2000, games_list2023, games_list2000, games_list2023]
 
 class User:
     def __init__(self, name, nickname, password):
@@ -33,25 +34,41 @@ class User:
 user1 = User("Daniel", "dan", "admin")
 user2 = User("Lys", "Gio", "tester")
 user3 = User("Mari", "Mar", "123")
-user1 = User("Daniel1", "dan", "admin")
-user2 = User("Lys1", "Gio", "tester")
-user3 = User("Mari1", "Mar", "123")
-user1 = User("Daniel2", "dan", "admin")
-user2 = User("Lys2", "Gio", "tester")
-user3 = User("Mari2", "Mar", "123")
-user1 = User("Daniel3", "dan", "admin")
-user2 = User("Lys3", "Gio", "tester")
-user3 = User("Mari3", "Mar", "123")
-user1 = User("Danie4l", "dan", "admin")
-user2 = User("Lys4", "Gio", "tester")
-user3 = User("Mari4", "Mar", "123")
-user1 = User("Daniel5", "dan", "admin")
-user2 = User("Lys5", "Gio", "tester")
-user3 = User("Mari5", "Mar", "123")
+user4 = User("Daniel1", "dan", "admin")
+user5 = User("Lys1", "Gio", "tester")
+user6 = User("Mari1", "Mar", "123")
+user7 = User("Daniel2", "dan", "admin")
+user8 = User("Lys2", "Gio", "tester")
+user9 = User("Mari2", "Mar", "123")
+user10 = User("Daniel3", "dan", "admin")
+user11 = User("Lys3", "Gio", "tester")
+user12 = User("Mari3", "Mar", "123")
+user13 = User("Danie4l", "dan", "admin")
+user14 = User("Lys4", "Gio", "tester")
+user15 = User("Mari4", "Mar", "123")
+user16 = User("Daniel5", "dan", "admin")
+user17 = User("Lys5", "Gio", "tester")
+user18 = User("Mari5", "Mar", "123")
 
 users = { user1.nickname : user1,
           user2.nickname : user2,
-          user3.nickname : user3 }
+          user3.nickname : user3,
+          user4.nickname: user4,
+          user5.nickname: user5,
+          user6.nickname: user6,
+          user7.nickname: user7,
+          user8.nickname: user8,
+          user9.nickname: user9,
+          user10.nickname: user10,
+          user11.nickname: user11,
+          user12.nickname: user12,
+          user13.nickname: user13,
+          user14.nickname: user14,
+          user15.nickname: user15,
+          user16.nickname: user16,
+          user17.nickname: user17,
+          user18.nickname: user18
+          }
 
 app = Flask(__name__)
 app.secret_key = 'DanielC'
