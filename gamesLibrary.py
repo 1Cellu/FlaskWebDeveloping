@@ -8,6 +8,20 @@ class Game:
 
 games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
 games_list2023 = Game('f123', 'Racing', 'PS4')
+games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
+games_list2023 = Game('f123', 'Racing', 'PS4')
+games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
+games_list2023 = Game('f123', 'Racing', 'PS4')
+games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
+games_list2023 = Game('f123', 'Racing', 'PS4')
+games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
+games_list2023 = Game('f123', 'Racing', 'PS4')
+games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
+games_list2023 = Game('f123', 'Racing', 'PS4')
+games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
+games_list2023 = Game('f123', 'Racing', 'PS4')
+games_list2000 = Game('Tetris', 'Puzzle', 'Atari')
+games_list2023 = Game('f123', 'Racing', 'PS4')
 games_list = [games_list2000, games_list2023]
 
 class User:
@@ -19,6 +33,21 @@ class User:
 user1 = User("Daniel", "dan", "admin")
 user2 = User("Lys", "Gio", "tester")
 user3 = User("Mari", "Mar", "123")
+user1 = User("Daniel1", "dan", "admin")
+user2 = User("Lys1", "Gio", "tester")
+user3 = User("Mari1", "Mar", "123")
+user1 = User("Daniel2", "dan", "admin")
+user2 = User("Lys2", "Gio", "tester")
+user3 = User("Mari2", "Mar", "123")
+user1 = User("Daniel3", "dan", "admin")
+user2 = User("Lys3", "Gio", "tester")
+user3 = User("Mari3", "Mar", "123")
+user1 = User("Danie4l", "dan", "admin")
+user2 = User("Lys4", "Gio", "tester")
+user3 = User("Mari4", "Mar", "123")
+user1 = User("Daniel5", "dan", "admin")
+user2 = User("Lys5", "Gio", "tester")
+user3 = User("Mari5", "Mar", "123")
 
 users = { user1.nickname : user1,
           user2.nickname : user2,
@@ -75,4 +104,5 @@ def logout():
     session['user_on'] = None
     flash('Logout')
     return redirect('/')
+
 app.run(debug=True)
